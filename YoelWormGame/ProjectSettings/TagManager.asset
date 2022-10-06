@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Terrain
+  - Water
+  - Boat
+  - Death
+  - DamageCol
+  - Red
+  - Blue
+  - Yellow
+  - Green
+  - Dead
+  - Skybox
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player1
+  - Player1.1
+  - Player2
+  - Player2.1
+  - Player3
+  - Player3.1
+  - Player4
+  - Player4.1
+  - Skybox
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

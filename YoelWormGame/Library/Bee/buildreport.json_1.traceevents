@@ -1,0 +1,571 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1665070881579016, "dur": 1234004, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665070881579271, "dur": 3474, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665070881582748, "dur": 31486, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665070881614264, "dur": 199170, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665070881813437, "dur": 986334, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665070882799775, "dur": 13244, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665070882813517, "dur": 25, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1665070881699983, "dur": 95184, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665070881700861, "dur": 36733, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665070881780777, "dur": 4307, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665070881785088, "dur": 10072, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665070881785749, "dur": 8808, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665070881799433, "dur": 1157, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665070881798683, "dur": 1930, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665070882813624, "dur": 183, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1665070881847009, "dur":1017, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665070881848032, "dur":97, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1665070881848163, "dur":22, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1665070881848186, "dur":193, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1665070881848398, "dur":468, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665070881848866, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665070882781914, "dur":93, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665070882782007, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665070882782019, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665070882782023, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665070882782030, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665070882782032, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665070882782038, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665070882782040, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665070882782047, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665070882782049, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665070882782054, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665070882782056, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665070882782062, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665070882782072, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665070882782113, "dur":1850, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1665070881848689, "dur":216, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070881848905, "dur":4314, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070881853219, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1665070881853263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070881857235, "dur":812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1665070881858092, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1665070881858121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070881858551, "dur":490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1665070881859068, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1665070881859100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070881859495, "dur":74282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1665070881935298, "dur":1087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070881936389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070881936394, "dur":60404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070881996827, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070881996860, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070881996864, "dur":32715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882029607, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882029635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070882029639, "dur":31817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882061491, "dur":68632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882130126, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070882130132, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882131059, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882131087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070882131103, "dur":16484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882147616, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882147642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070882147645, "dur":30174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882177848, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882177877, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070882177880, "dur":21678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882199586, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882199611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070882199628, "dur":31654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882231310, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882231344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070882231348, "dur":22082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882253459, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882253488, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070882253491, "dur":72073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882325595, "dur":39205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882364804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070882364809, "dur":670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882365504, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882365530, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070882365534, "dur":159107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882524670, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882524697, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070882524701, "dur":59658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882584386, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882584420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070882584424, "dur":26883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882611335, "dur":22992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882634329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070882634333, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665070882635084, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/level4.resS" }}
+,{ "pid":12345, "tid":1, "ts":1665070882635111, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070882635126, "dur":2856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/level4.resS" }}
+,{ "pid":12345, "tid":1, "ts":1665070882638009, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1665070882638035, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070882638037, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1665070882638942, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1665070882639066, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070882639068, "dur":681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1665070882639784, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1665070882639816, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070882639818, "dur":826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1665070882640720, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1665070882640818, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665070882640820, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1665070882641847, "dur":140054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070881848999, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070881848999, "dur":4222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070881853221, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1665070881853264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070881857302, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1665070881859282, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1665070881859324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070881859671, "dur":65039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1665070881924744, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070881924783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070881924986, "dur":6437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070881931453, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070881931482, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070881931485, "dur":16876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070881948387, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070881948416, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070881948431, "dur":31624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070881980084, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070881980120, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070881980124, "dur":69809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882049963, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882049992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070882049995, "dur":75468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882125495, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882125522, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070882125525, "dur":13821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882139375, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882139407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070882139411, "dur":22506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882161944, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882161978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070882161982, "dur":13885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882175897, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882175924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070882175941, "dur":14485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882190453, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882190478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070882190482, "dur":15387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882205894, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882205922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070882205926, "dur":20171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882226124, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882226165, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070882226169, "dur":19174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882245371, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882245398, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070882245402, "dur":26601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882272032, "dur":55616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882327652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070882327658, "dur":1603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882329291, "dur":2601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882331921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070882331926, "dur":1412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882333364, "dur":1236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882334603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070882334622, "dur":1437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882336088, "dur":732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882336823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070882336828, "dur":680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882337535, "dur":20745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882358283, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070882358288, "dur":727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882359040, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882359066, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070882359069, "dur":44850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882403945, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882403970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070882403975, "dur":83847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882487848, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882487875, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070882487878, "dur":114500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882602406, "dur":97649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882700059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665070882700064, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665070882701078, "dur":80822, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070881848789, "dur":143, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070881848932, "dur":4288, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070881853220, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1665070881853277, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070881857945, "dur":2042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1665070881860016, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1665070881860048, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070881860052, "dur":520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1665070881860601, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1665070881860627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070881860631, "dur":64277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1665070881924939, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070881924977, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070881924979, "dur":16982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070881941993, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070881942027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070881942032, "dur":39148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070881981284, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070881981314, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070881981317, "dur":65533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882046878, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882046905, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070882046909, "dur":24007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882070943, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882070971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070882070976, "dur":32562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882103565, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882103595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070882103599, "dur":15510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882119136, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882119168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070882119172, "dur":27790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882146992, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882147023, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070882147027, "dur":13391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882160447, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882160476, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070882160480, "dur":33289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882193801, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882193828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070882193832, "dur":22659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882216519, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882216545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070882216549, "dur":21210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882237784, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882237810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070882237813, "dur":15634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882253473, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882253510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070882253513, "dur":25679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882279222, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882279254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070882279259, "dur":31248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882310535, "dur":1166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882311705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070882311711, "dur":672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882312412, "dur":26607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882339023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070882339028, "dur":736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882339794, "dur":855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882340652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070882340657, "dur":785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882341470, "dur":885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882342358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070882342364, "dur":748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882343140, "dur":553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882343695, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070882343700, "dur":681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882344407, "dur":82650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882427061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070882427066, "dur":2221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882429316, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882429342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070882429346, "dur":42007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882471382, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882471412, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070882471415, "dur":48903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882520353, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882520395, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070882520399, "dur":78060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882598488, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882598513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665070882598517, "dur":117152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665070882715695, "dur":66207, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070881848888, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070881848888, "dur":4283, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070881853179, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1665070881853180, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070881853216, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1665070881853218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070881853696, "dur":1704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1665070881855403, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1665070881855439, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070881855741, "dur":587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1665070881856358, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1665070881856396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070881856434, "dur":626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1665070881857092, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1665070881857127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070881857131, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1665070881858789, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1665070881858828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070881859428, "dur":66772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1665070881926250, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame.exe" }}
+,{ "pid":12345, "tid":4, "ts":1665070881926287, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070881926293, "dur":36626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame.exe" }}
+,{ "pid":12345, "tid":4, "ts":1665070881962944, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070881962974, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070881962978, "dur":53884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882016892, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882016919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070882016923, "dur":51175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882068126, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882068152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070882068156, "dur":14856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882083039, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882083066, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070882083070, "dur":53017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882136116, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882136146, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070882136150, "dur":15792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882151977, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882152005, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070882152009, "dur":36920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882188965, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882188993, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070882188996, "dur":13382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882202407, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882202433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070882202437, "dur":17219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882219684, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882219711, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070882219714, "dur":67606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882287347, "dur":38794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882326144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070882326149, "dur":6858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882333035, "dur":821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882333859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070882333864, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882335186, "dur":15416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882350606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070882350739, "dur":1355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882352122, "dur":45360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882397486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070882397491, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882398753, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882398782, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070882398785, "dur":61030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882459843, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882459871, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070882459875, "dur":19257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882479159, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882479187, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070882479191, "dur":88237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882567453, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882567479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665070882567483, "dur":76550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665070882644060, "dur":137842, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070881849104, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070881849104, "dur":4118, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070881853222, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1665070881853282, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070881863214, "dur":61778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1665070881925020, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1665070881925055, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070881925057, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1665070881926610, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070881926639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070881926754, "dur":70089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070881996868, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070881996895, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070881996898, "dur":17793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882014718, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882014759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882014764, "dur":17281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882032075, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882032105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882032109, "dur":45901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882078037, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882078064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882078068, "dur":36533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882114629, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882114658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882114662, "dur":32475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882147163, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882147190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882147193, "dur":13498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882160718, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882160746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882160749, "dur":20640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882181417, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882181443, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882181447, "dur":51639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882233114, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882233140, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882233144, "dur":25894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882259066, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882259092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882259097, "dur":16438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882275561, "dur":44486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882320051, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882320057, "dur":3236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882323324, "dur":554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882323881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882323885, "dur":7138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882331268, "dur":42132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882373404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882373409, "dur":1061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882374498, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882374530, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882374533, "dur":33809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882408374, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882408403, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882408407, "dur":85804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882494241, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882494271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882494275, "dur":122221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665070882616523, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1665070882616606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882616883, "dur":523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1665070882617431, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1665070882617457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882617497, "dur":700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1665070882618222, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665070882618247, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882618250, "dur":677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665070882618951, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665070882618974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882618978, "dur":463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665070882619464, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665070882619487, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882619489, "dur":473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665070882619985, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665070882620009, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882620011, "dur":453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665070882620487, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665070882620512, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882620514, "dur":7137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665070882627678, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665070882627709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882627713, "dur":729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665070882628468, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665070882628494, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882628497, "dur":1124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665070882629649, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665070882629674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882629677, "dur":689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665070882630389, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1665070882630464, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882630466, "dur":715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1665070882631207, "dur":672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1665070882631883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882631888, "dur":604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1665070882632517, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665070882632544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882632547, "dur":679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665070882633251, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665070882633275, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882633278, "dur":643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665070882633945, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/level5.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665070882633971, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882633974, "dur":738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/level5.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665070882634738, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/level5" }}
+,{ "pid":12345, "tid":5, "ts":1665070882634763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882634766, "dur":482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/level5" }}
+,{ "pid":12345, "tid":5, "ts":1665070882635271, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/level4" }}
+,{ "pid":12345, "tid":5, "ts":1665070882635296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882635298, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/level4" }}
+,{ "pid":12345, "tid":5, "ts":1665070882636258, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665070882636283, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882636286, "dur":611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665070882636922, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1665070882636947, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882636949, "dur":498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1665070882637473, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/level2.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665070882637499, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882637501, "dur":664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/level2.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665070882638188, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665070882638212, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882638214, "dur":766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665070882639005, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665070882639029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882639032, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665070882639774, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1665070882639799, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882639802, "dur":683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1665070882640511, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1665070882640537, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665070882640539, "dur":1064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1665070882641629, "dur":140286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070881849200, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070881849200, "dur":3994, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070881853195, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1665070881853259, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070881854449, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1665070881855437, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1665070881855467, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070881855879, "dur":523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1665070881856432, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1665070881856477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070881856481, "dur":741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1665070881857251, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1665070881857284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070881857288, "dur":1495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1665070881858812, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1665070881858839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070881859596, "dur":65110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1665070881924741, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070881924776, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070881924979, "dur":1297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070881926307, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1665070881926338, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070881926590, "dur":4401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1665070881931057, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070881931155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070881931187, "dur":49396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070881980606, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070881980639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070881980642, "dur":36807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882017475, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882017502, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070882017505, "dur":19172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882036707, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882036735, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070882036738, "dur":13171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882049940, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882049973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070882049978, "dur":43963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882094038, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882094107, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070882094111, "dur":30939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882125079, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882125109, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070882125112, "dur":19514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882144655, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882144682, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070882144686, "dur":13897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882158609, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882158636, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070882158640, "dur":13161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882171829, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882171856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070882171860, "dur":17016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882188908, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882188939, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070882188943, "dur":14214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882203183, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882203210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070882203214, "dur":18878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882222119, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882222149, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070882222153, "dur":15024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882237204, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882237237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070882237242, "dur":24697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882261973, "dur":29271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882291248, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070882291253, "dur":653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882291931, "dur":135262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882427195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070882427199, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882428535, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882428562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070882428566, "dur":47690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882476283, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882476325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070882476330, "dur":24520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882500878, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882500905, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070882500909, "dur":29094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882530029, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882530068, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070882530071, "dur":66221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882596320, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PlayableBuild&TextDocument/YoelWormGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882596347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665070882596351, "dur":185507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PlayableBuild&TextDocument/YoelWormGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665070882781887, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1665070882781888, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665070882785224, "dur":1636, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1665070882813866, "dur": 814, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665070882813497, "dur": 1202, "ph": "X", "name": "Write chrome-trace events", "args": {} },
